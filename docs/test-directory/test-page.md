@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Layout
-parent: test-directory
+title: Test Page
+parent: Test Directory
 ---
 
-# test-directory
+# Test Directory
 {: .no_toc }
 
 ## Table of contents
