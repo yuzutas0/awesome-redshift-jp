@@ -6,16 +6,33 @@ description: "Awesome Redshift JP"
 permalink: /
 ---
 
-# XXX
+# Awesome Redshift JP
 {: .fs-9 }
 
-xxx
+Amazon Redshift によるデータ活用を実現するための参考資料をまとめています。
 {: .fs-6 .fw-300 }
 
-[View it on GitHub](https://github.com/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[View it on GitHub](https://github.com/yuzutas0/awesome-redshift-jp){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ---
 
-## XXX
+## ドキュメント構成
 
-xxx
+- ユースケース：データ活用によるビジネス価値の創出（ROAS計測、ダイナミックプライシング、1to1マーケティング、Sales Ops、CS Oｐｓ、HR Opsなど）
+- データアクティベーション：Redshiftのデータを用いてユースケースを実現する方法（ReverseETL、embed BIなど）
+- データモデリング：DWHのデータを使いやすく整備する方法（Data Vault 2.0、ディメンショナルモデリングなど）
+- データ統合：各データソースのデータをRedshiftに収集する方法（ETLツールなど）
+- データソース：データの生成箇所・取得元（RDBMSやアクセス解析ツールなど）
+- ワークフロー：データ統合からデータアクティベーションまでの全体の流れを管理する方法（マネージドELTツール、データリネージ管理など）
+- データガバナンス：データを安心・安全に使えるように内部統制する方法（個人情報保護法、セキュリティ、メタデータ整備など）
+- 機械学習：DWHのデータを用いて機械学習を実現する方法（MLOps/SysML、AutoMLツールなど）
+
+## 用語について
+
+書籍『実践的データ基盤への処方箋』ならびに『データマネジメントが30分でわかる本』に準拠します。
+
+## コミュニティについて
+
+- 主な活動場所：　Slackコミュニティ「[datatech-jp](https://datatech-jp.github.io/)」の「[#redshift](https://datatech-jp.slack.com/archives/C03MHCZS2GG)」チャンネル
+- コントリビューター：　[@yuzutas0](https://twitter.com/yuzutas0), xxx, xxx
+- インタビューのお願い：　Redshiftを利用中または検討中の方に、30分のオンライン1on1で「こういうノウハウを開拓した」「この記事が参考になった」「こういうことに困っている」「こういう情報を掲載してほしい」といったお話を伺っています。「話しても良いよ」という方がいたらSlackで相談させてください。
