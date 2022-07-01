@@ -29,6 +29,7 @@ parent: Source
         - WebAPI → 任意のIntegrationソリューション (→ Amazon S3) → Amazon Redshift
     - 実現するテクノロジー（関連：[Integration](../integration/integration.md)）
         - AWS Lambda等で定期バッチを作成し、上記エンドポイントにリクエストを送る。
+        - Amazon RedshiftからLambda UDF経由でAWS Lambdaを実行して、上記エンドポイントにリクエストを送る。
         - [Amazon AppFlow](https://aws.amazon.com/jp/appflow/) を利用する。
         - [CData AWS Glue Connector for Google Analytics](https://aws.amazon.com/marketplace/pp/prodview-s65fmshg6qcvw) を利用する。
 1. エクスポート
@@ -39,9 +40,10 @@ parent: Source
     - デメリット
         - GoogleAnalyticsのコンソール画面を使い慣れている場合、数字を一致させるのは難しいため、混乱を招く恐れがある。
         - ツールの選択肢が1つだけなのでマルチクラウドを管理しなければならない。
+        - 無料版かつ日次エクスポート設定だと1日の上限は100万イベントまでに制限される。
+        - 日次エクスポートの完了時間が約束されていないため、テスト＆リトライの自動化を実装する必要がある。
     - データの流れ
         - Google Analytics → エクスポート設定 → BigQuery (→ Cloud Storage) → 任意のIntegrationソリューション （→ Amazon S3） → Amazon Redshift
+        - BigQuery や Cloud Storage はデータ基盤ではなく、外部データソースという位置付けになる。
     - 実現するテクノロジー
         - TODO：記載
-
-
