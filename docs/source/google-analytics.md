@@ -10,13 +10,14 @@ parent: Source
 ## Table of contents
 {: .no_toc .text-delta }
 
+1. TOC
 {:toc}
 
 ---
 
 ## データ取得方法
 
-### 1. WebAPI 経由で取得
+### WebAPI 経由で取得
 
 - [Reporting API v4](https://developers.google.com/analytics/devguides/reporting/core/v4) ：Universal Analyticsのレポートが対象。
 - [Google Analytics Data API v1](https://developers.google.com/analytics/devguides/reporting/data/v1) ：Google Analytics 4のレポートが対象。
@@ -43,7 +44,7 @@ parent: Source
 
 関連：[Integration](../integration/integration.md)
 
-### 2. エクスポート設定
+### エクスポート設定
 
 [BigQueryのみ出力可能。](https://support.google.com/analytics/topic/9359001) 
 
