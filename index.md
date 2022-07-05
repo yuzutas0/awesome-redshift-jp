@@ -33,6 +33,6 @@ Amazon Redshift によるデータ活用を実現するための参考資料を�
 
 ## コミュニティについて
 
-- 主な活動場所：　Slackコミュニティ「[datatech-jp](https://datatech-jp.github.io/)」の「[#redshift](https://datatech-jp.slack.com/archives/C03MHCZS2GG)」チャンネル
-- コントリビューター：　[@yuzutas0](https://twitter.com/yuzutas0), xxx, xxx
-- インタビューのお願い：　Redshiftを利用中または検討中の方に、30分のオンライン1on1で「こういうノウハウを開拓した」「この記事が参考になった」「こういうことに困っている」「こういう情報を掲載してほしい」といったお話を伺っています。「話しても良いよ」という方がいたらSlackで相談させてください。
+- 主な活動場所： Slackコミュニティ「[datatech-jp](https://datatech-jp.github.io/)」の「[#redshift](https://datatech-jp.slack.com/archives/C03MHCZS2GG)」チャンネル
+- コントリビューター： [@yuzutas0](https://twitter.com/yuzutas0), [@mashiike](https://twitter.com/mashiike), xxx
+- インタビューのお願い： Redshiftを利用中または検討中の方に、30分のオンライン1on1で「こういうノウハウを開拓した」「この記事が参考になった」「こういうことに困っている」「こういう情報を掲載してほしい」といったお話を伺っています。「話しても良いよ」という方がいたらSlackで相談させてください。
