@@ -9,10 +9,10 @@ permalink: /
 # Awesome Redshift JP
 {: .fs-9 }
 
-Amazon Redshift によるデータ活用を実現するための参考資料をまとめています。
+Amazon Redshift によるデータ活用を実現するためのノウハウや参考資料をまとめています。
 {: .fs-6 .fw-300 }
 
-[View it on GitHub](https://github.com/yuzutas0/awesome-redshift-jp){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[GitHubで開く](https://github.com/yuzutas0/awesome-redshift-jp){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ---
 
@@ -36,3 +36,8 @@ Amazon Redshift によるデータ活用を実現するための参考資料を�
 - 主な活動場所： Slackコミュニティ「[datatech-jp](https://datatech-jp.github.io/)」の「[#redshift](https://datatech-jp.slack.com/archives/C03MHCZS2GG)」チャンネル
 - コントリビューター： [@yuzutas0](https://twitter.com/yuzutas0), [@mashiike](https://twitter.com/mashiike), xxx
 - インタビューのお願い： Redshiftを利用中または検討中の方に、30分のオンライン1on1で「こういうノウハウを開拓した」「この記事が参考になった」「こういうことに困っている」「こういう情報を掲載してほしい」といったお話を伺っています。「話しても良いよ」という方がいたらSlackで相談させてください。
+
+## Contributionについて
+
+- ぜひ気軽にIssue、Discussion、P.R.に投稿していただけると嬉しいです。
+- 完成度が上がったら個人リポジトリからOrganization（例：[datatech-jp](https://github.com/datatech-jp/) ）への移行を検討します。
