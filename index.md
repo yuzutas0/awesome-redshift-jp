@@ -18,14 +18,14 @@ Amazon Redshift によるデータ活用を実現するためのノウハウや�
 
 ## ドキュメント構成
 
-- ユースケース：データ活用によるビジネス価値の創出（ROAS計測、ダイナミックプライシング、1to1マーケティング、Sales Ops、CS Oｐｓ、HR Opsなど）
-- データアクティベーション：Redshiftのデータを用いてユースケースを実現する方法（ReverseETL、embed BIなど）
-- データモデリング：DWHのデータを使いやすく整備する方法（Data Vault 2.0、ディメンショナルモデリングなど）
-- データ統合：各データソースのデータをRedshiftに収集する方法（ETLツールなど）
-- データソース：データの生成箇所・取得元（RDBMSやアクセス解析ツールなど）
-- ワークフロー：データ統合からデータアクティベーションまでの全体の流れを管理する方法（マネージドELTツール、データリネージ管理など）
-- データガバナンス：データを安心・安全に使えるように内部統制する方法（個人情報保護法、セキュリティ、メタデータ整備など）
-- 機械学習：DWHのデータを用いて機械学習を実現する方法（MLOps/SysML、AutoMLツールなど）
+- [ユースケース]({{ site.baseurl }}{% link docs/usecase/usecase.md %})：データ活用によるビジネス価値の創出（ROAS計測、ダイナミックプライシング、1to1マーケティング、Sales Ops、CS Ops、HR Opsなど）
+- [データアクティベーション]({{ site.baseurl }}{% link docs/activation/activation.md %})：Redshiftのデータを用いてユースケースを実現する方法（ReverseETL、Embed BIなど）
+- [データモデリング]({{ site.baseurl }}{% link docs/modeling/modeling.md %})：DWHのデータを使いやすく整備する方法（Data Vault 2.0、ディメンショナルモデリングなど）
+- [データ統合]({{ site.baseurl }}{% link docs/integration/integration.md %})：各データソースのデータをRedshiftに収集する方法（ETLツールなど）
+- [データソース]({{ site.baseurl }}{% link docs/source/source.md %})：データの生成箇所・取得元（RDBMSやアクセス解析ツールなど）
+- [ワークフロー]({{ site.baseurl }}{% link docs/workflow/workflow.md %})：データ統合からデータアクティベーションまでの全体の流れを管理する方法（マネージドELTツール、データリネージ管理など）
+- [データガバナンス]({{ site.baseurl }}{% link docs/governance/governance.md %})：データを安心・安全に使えるように内部統制する方法（個人情報保護法、セキュリティ、メタデータ整備など）
+- [機械学習]({{ site.baseurl }}{% link docs/machine-learning/machine-learning.md %})：Redshiftのデータを用いて機械学習を実現する方法（MLOps/SysML、AutoMLツールなど）
 
 ## 用語について
 
