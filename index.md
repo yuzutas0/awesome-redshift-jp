@@ -18,6 +18,7 @@ Amazon Redshift によるデータ活用を実現するためのノウハウや�
 
 ## ドキュメント構成
 
+- [セットアップ＆ハンズオン]({{ site.baseurl }}{% link docs/setup/setup.md %})
 - [ユースケース]({{ site.baseurl }}{% link docs/usecase/usecase.md %})：データ活用によるビジネス価値の創出（ROAS計測、ダイナミックプライシング、1to1マーケティング、Sales Ops、CS Ops、HR Opsなど）
 - [データアクティベーション]({{ site.baseurl }}{% link docs/activation/activation.md %})：Redshiftのデータを用いてユースケースを実現する方法（ReverseETL、Embed BIなど）
 - [データモデリング]({{ site.baseurl }}{% link docs/modeling/modeling.md %})：DWHのデータを使いやすく整備する方法（Data Vault 2.0、ディメンショナルモデリングなど）
