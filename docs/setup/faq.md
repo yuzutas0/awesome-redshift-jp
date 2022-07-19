@@ -47,10 +47,10 @@ parent: Setup
 
 ## Redshift Serverless の credentials はiamが別
 
-`redshift:GetClusterCredentials` ではなく `redshift-serverless:GetCredentials` 対象となる。
+`redshift:GetClusterCredentials` ではなく `redshift-serverless:GetCredentials` が対象となる。
 
 > 一時的な認証情報を使用してサーバーレスワークグループへの認証を行う場合は、ポリシーで redshift-serverless:GetCredentials アクションの使用が許可されていることを確認します。
-> [https://docs.aws.amazon.com/ja_jp/redshift/latest/mgmt/data-api.html](https://docs.aws.amazon.com/ja_jp/redshift/latest/mgmt/data-api.html
+> [https://docs.aws.amazon.com/ja_jp/redshift/latest/mgmt/data-api.html](https://docs.aws.amazon.com/ja_jp/redshift/latest/mgmt/data-api.html)
 
 
 非公式ラッパーとして [https://github.com/mashiike/redshift-credentials](https://github.com/mashiike/redshift-credentials) が作られた。
