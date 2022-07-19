@@ -20,7 +20,12 @@ parent: Setup
 日本語だと「プレビュー」の記載がありますが、英語だとPreviewの記載は外れています。
 料金表の内容も同じなので、日本語の翻訳が間に合っていないようです。
 
+
+日本語の料金表:
+
 ![日本語の料金表]({{ site.baseurl }}{% link assets/images/cost_preview_1.png %})
+
+英語の料金表:
 
 ![英語の料金表]({{ site.baseurl }}{% link assets/images/cost_preview_2.png %})
 
